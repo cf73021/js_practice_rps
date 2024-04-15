@@ -7,7 +7,12 @@
 <body>
   <script>
     // Your JavaScript goes here!
-
+    function getComputerChoice(){
+      let optionsArray = ["rock", "paper", "scissors"]
+      let randomNumber = Math.floor(Math.random()*optionsArray.length);
+      return optionsArray[randomNumber]
+    }
+    console.log(getComputerChoice())
   </script>
 </body>
 </html>
